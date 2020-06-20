@@ -607,6 +607,10 @@ a {
     margin: 0 auto;
 }
 
+#home-section {
+    min-height: 100vh;
+}
+
 .home #about {
     /* background: #605b44; */
     background: #e6e6e6;
@@ -909,7 +913,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin-top: 2rem;
+   /*  margin-top: 2rem; */
     list-style: none;
     text-align: center;
     justify-content: center;
@@ -1371,6 +1375,13 @@ footer .footnote {
         font-size: 2rem;
     }
 
+    .header-title {
+        font-size: 22px;
+    }
+    .header-nav-links {
+        font-size: 14px;
+    }
+
     .home-button {
         padding: 7px 22px;
         font-size: 10pt;
@@ -1453,7 +1464,12 @@ footer .footnote {
     html {
         font-size: 14px;
     }
-
+    .home section {
+        padding: 1rem;
+    }
+    .home h1 {
+        font-size: 1.5rem;
+    }
     .loading-screen {
         font-size: 35px;
         margin: 11% 4% 4% 4%;
@@ -1464,6 +1480,13 @@ footer .footnote {
 
     .home header {
         height: 85vh;
+    }
+
+    .header-title {
+        font-size: 12px;
+    }
+    .header-nav-links {
+        font-size: 9px;
     }
 
     .home-button {
