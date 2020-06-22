@@ -438,6 +438,8 @@ a {
 }
 
 .home-container {
+    display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     flex: 1;
     align-items: center;
@@ -453,6 +455,8 @@ a {
 }
 
 .home-row {
+    display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
@@ -460,6 +464,8 @@ a {
 }
 
 .home-col-text {
+    display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -468,6 +474,8 @@ a {
 }
 
 .home-col-image {
+    display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -1568,15 +1576,15 @@ footer .footnote {
         align-items: flex-start;
         width: 100%;
         height: 100%;
-        opacity: 0;
-        height:0;
+        /* opacity: 0;
+        height:0; */
     }
 
     .home-vector-image {
         width: 84%;
         height: 100%;
-        opacity: 0;
-        height:0;
+       /*  opacity: 0;
+        height:0; */
         
     }
 
