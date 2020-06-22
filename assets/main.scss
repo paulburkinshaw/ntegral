@@ -462,7 +462,7 @@ a {
 .home-col-text {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     flex: 1;
     /* height: 100%; */
 }
@@ -1553,20 +1553,27 @@ footer .footnote {
         padding: 1rem;
     }
 
+    .home-container {
+        height: 20em;
+    }
+
     .home-row {
         flex-direction: column;
-        flex-wrap: wrap;
+        flex: 1;
+        /* flex-wrap: wrap; */
     }
 
     .home-col-text {
        /*  align-items: center; */
        align-items: flex-start;
        width: 100%;
+       align-items: center; 
        /* height: 100%; */
     }
     .home-col-image {
         align-items: flex-start;
         width: 100%;
+        align-items: center; 
         /* height: 100%; */
         /* opacity: 0;
         height:0; */
