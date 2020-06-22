@@ -1388,7 +1388,7 @@ footer .footnote {
     }
 
     .home-col-text {
-        align-items: center;
+        /* align-items: center; */
     }
 
     .home-col-image {
@@ -1438,7 +1438,7 @@ footer .footnote {
     }
 
     .home-col-text {
-        align-items: center;
+       /*  align-items: center; */
     }
 
     .home-col-image {
@@ -1557,14 +1557,16 @@ footer .footnote {
        /*  align-items: center; */
        align-items: flex-start;
     }
+    .home-col-image {
+        align-items: flex-start;
+    }
 
     .home-button {
         padding: 5px 20px;
         font-size: 9pt;
     }
 
-    .home-col-image {
-    }
+   
 
     .home-vector-image {
         width: 84%;
