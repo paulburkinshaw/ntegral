@@ -464,7 +464,7 @@ a {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .home-col-image {
@@ -472,7 +472,7 @@ a {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    height: auto;
+    
 }
 
 .home-vector {
@@ -482,7 +482,11 @@ a {
     /* width: 86%; */
     max-width: 86%;
     width: 86%;
-    height: 100%;
+    margin-block-start: 1.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
 }
 
 .home h1 {
