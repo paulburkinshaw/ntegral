@@ -472,7 +472,6 @@ a {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    height: 100%;
 }
 
 .home-vector {
@@ -1561,6 +1560,11 @@ footer .footnote {
         align-items: flex-start;
     }
 
+    .home-vector-image {
+        width: 84%;
+        margin: auto;
+    }
+
     .home-button {
         padding: 5px 20px;
         font-size: 9pt;
@@ -1568,9 +1572,7 @@ footer .footnote {
 
    
 
-    .home-vector-image {
-        width: 84%;
-    }
+   
 
     .home h1 {
         font-size: 1.5rem;
